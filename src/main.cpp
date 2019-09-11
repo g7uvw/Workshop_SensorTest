@@ -3,9 +3,6 @@
 #include <Arduino.h>
 #include "DHTesp.h"
 
- #ifdef dh_local_copy
-  #error need g++14
-#endif 
 
 // These lines say what pin on the chip the sensor is connected to
 // and what type of sensor it is
